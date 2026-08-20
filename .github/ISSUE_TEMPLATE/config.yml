@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security report
+    url: https://github.com/gopalneb/offline-password-manager/security/advisories/new
+    about: Report security vulnerabilities privately. Do not publish real credentials.

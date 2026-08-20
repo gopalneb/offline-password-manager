@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Pocket Vault</string>
+    <string name="title_activity_main">Pocket Vault</string>
+    <string name="package_name">in.pocketvault.local</string>
+    <string name="custom_url_scheme">in.pocketvault.local</string>
+    <string name="autofill_service_name">Pocket Vault</string>
+    <string name="autofill_service_description">Offer to save usernames and passwords locally in Pocket Vault.</string>
+</resources>

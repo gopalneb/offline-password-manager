@@ -1,0 +1,48 @@
+name: Bug report
+description: Report a reproducible Pocket Vault problem using test data only.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include real passwords, PINs, recovery codes, backup files, or signing keys.
+  - type: input
+    id: version
+    attributes:
+      label: Pocket Vault version
+      placeholder: 1.4.1
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and Android version
+      placeholder: Samsung Galaxy S23, Android 15
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: Use fake test credentials only.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: checkboxes
+    id: security
+    attributes:
+      label: Security
+      options:
+        - label: This report contains no real credentials or sensitive files.
+          required: true
